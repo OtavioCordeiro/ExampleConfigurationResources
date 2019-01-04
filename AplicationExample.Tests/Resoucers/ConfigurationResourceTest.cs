@@ -11,7 +11,7 @@ namespace AplicationExample.Tests.Resoucers
     {
         public string AppUrl => "appUrlMock";
 
-        public Uri ApiUri => new Uri("ApiUriMock");
+        public Uri ApiUri => new Uri("http://apimock.com");
 
         public string ExampleDbConnectionString => "connectionStringMock";
     }

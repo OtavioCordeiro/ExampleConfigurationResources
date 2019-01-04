@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AplicationExample.Tests.Resoucers
 {
-    public class ModuleResourceMockTest : IModuleResource
+    public class ModuleResourceTest : IModuleResource
     {
         public string ServiceName1 => "ServiceName1Mock";
 

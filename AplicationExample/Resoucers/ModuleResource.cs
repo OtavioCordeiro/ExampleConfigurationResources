@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AplicationExample.Resoucers
 {
-    public class ModuleResource : IModuleResource
+    internal class ModuleResource : IModuleResource
     {
         public string ServiceName1 => "ServiceExample1";
 

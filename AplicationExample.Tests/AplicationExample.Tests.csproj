@@ -50,11 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resoucers\ConfigurationResourceTest.cs" />
-    <Compile Include="Resoucers\ModuleResourceMockTest.cs" />
+    <Compile Include="Resoucers\ModuleResourceTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

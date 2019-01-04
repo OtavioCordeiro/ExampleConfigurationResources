@@ -15,7 +15,7 @@ namespace AplicacaoExample.Modules
             var apiUrl = ConfigurationManager.AppSettings["apiUrl"];
             Uri apiUri = new Uri(apiUrl);
 
-            Resolve<IService>("ServiceExample");
+            Resolve<IService>("ServiceExample1");
             Resolve<IService>("ServiceExample2");
             Resolve<IService>("ServiceExample3");
             Resolve<IService>("ServiceExample4");
